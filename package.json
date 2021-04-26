@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon router.js",
+    "start-server": "nodemon router.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuluk12/Node-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chuluk12/Node-JS/issues"
+  },
+  "homepage": "https://github.com/Chuluk12/Node-JS#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "redux": "^4.0.5"
+  }
+}
